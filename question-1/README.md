@@ -14,9 +14,10 @@
 
 
 ## My Approach
-* 
+* I used a while loop to go through the username one character at a time. If the next character was a hyphen then I skipped both the current character and the hypen by increasing index by 2. Otherwise,  I add the current character to the shortened string.
 ## Course Connections
-
+* This included string traversals using loops and using .substring() to access individual characters.
 ## What Gave Me Trouble
-
+* I had to be careful with index positions when checking the next character. It was very easy to accidentally go out of bounds or skip the wrong characters so I had a few syntax mixtakes with .length().
 ## What I Would Do Differently 
+* I would probably use charAt() instead of substring() because it makes the code shorter.
